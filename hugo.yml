@@ -121,7 +121,7 @@ menu:
       weight: 10
     - identifier: contact
       name: contact
-      url: /contact/
+      url: /contact-us/
       weight: 20
     # - identifier: example
     #   name: example.org
