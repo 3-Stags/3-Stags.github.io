@@ -54,7 +54,7 @@ params:
 
   label:
     text: "3 Stags LLC"
-    icon: resources/_gen/images/images/3-Stags-White.png
+    icon: /images/3-Stags-White.png
     iconHeight: 35
 
   # profile-mode
