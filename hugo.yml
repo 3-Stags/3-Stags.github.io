@@ -54,7 +54,7 @@ params:
 
   label:
     text: "3 Stags LLC"
-    icon: /apple-touch-icon.png
+    icon: /resources/images/3-Stags-White.png
     iconHeight: 35
 
   # profile-mode
