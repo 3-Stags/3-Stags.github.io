@@ -1,8 +1,8 @@
 baseURL: https://3-Stags.github.io/
 languageCode: en-us
 title: 3 Stags LLC
-pagination.pagerSize: 5
-theme: PaperMod
+paginate: 5
+theme: ananke
 
 enableRobotsTXT: false
 buildDrafts: false

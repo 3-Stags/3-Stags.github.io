@@ -1,6 +1,5 @@
 +++
-title = 'About'
-date = 2024-03-01T16:59:24-06:00
-draft = false
+title = 'About Us'
+type = "page"
 +++
 Located in the heart of northern Chicagoland, Round Lake Beach, IL, our company stands proud as a small, disabled veteran-owned business specializing in the dynamic world of software development. With a rich legacy spanning over two decades, we bring a wealth of knowledge and expertise to the table, developing cutting-edge full-stack web and mobile applications that meet the evolving needs of our clients. Our commitment to innovation extends beyond just software development; we also provide specialized consulting services in Cloud solutions (AWS), DevOps, AI & ML, and for local small businesses only tailored networking solutions. Our diverse portfolio showcases our ability to support a wide range of clients, including Non-Profits, academic institutions, businesses of all sizes, and even the US Federal Government. At our core, we are driven by a passion for technology and a dedication to delivering exceptional solutions that drive success and innovation.
