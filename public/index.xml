@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>3 Stags LLC</title>
-        <link>http://localhost:1313/</link>
+        <link>http://3-stags.com/</link>
         <description>Homepage for 3 Stags LLC</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hello@3-stags.com (3 Stags LLC)</managingEditor>
             <webMaster>hello@3-stags.com (3 Stags LLC)</webMaster>
-            <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="http://3-stags.com/index.xml" rel="self" type="application/rss+xml" />
         </channel>
 </rss>
