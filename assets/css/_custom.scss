@@ -1,0 +1,35 @@
+// App screenshot gallery — swap light/dark images with the site theme
+.app-screenshots {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+
+  img {
+    width: 180px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  }
+}
+
+body[theme="dark"] .app-screenshot-light { display: none; }
+body[theme="light"] .app-screenshot-dark { display: none; }
+
+// Left-align page titles (theme default is right-aligned for "special" pages)
+.page.single.special {
+  .single-title,
+  .single-subtitle {
+    text-align: left;
+  }
+}
+
+// Constrain featured images on pages to a banner height so content is visible without excessive scrolling
+.page.single.special .featured-image {
+  img {
+    max-height: 380px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
