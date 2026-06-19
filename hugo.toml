@@ -1,4 +1,4 @@
-baseURL = "http://3-stags.com"
+baseURL = "https://3-stags.com"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
@@ -6,10 +6,12 @@ theme = "LoveIt"
 # website title
 title = "3 Stags LLC"
 
-# language code ["en", "zh-CN", "fr", "pl", ...]
-languageCode = "en"
-# language name ["English", "简体中文", "Français", "Polski", ...]
-languageName = "English"
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    locale = "en-US"
+    label = "English"
 
 # Menu config
 [menu]
@@ -42,23 +44,99 @@ languageName = "English"
 #    title = ""
   [[menu.main]]
     weight = 2
-    identifier = "About Us"
+    identifier = "software"
     pre = ""
     post = ""
-    name = "About Us"
-    url = "/about"
-    title = "about us"
+    name = "Software"
+    url = "/software"
+    title = "Software"
   [[menu.main]]
     weight = 3
+    identifier = "networking-services"
+    pre = ""
+    post = ""
+    name = "Networking Services"
+    url = "/networking-services"
+    title = "Professional Networking Services"
+  [[menu.main]]
+    weight = 4
     identifier = "/content/contact-us"
     pre = ""
     post = ""
     name = "Contact"
     url = "/contact-us"
     title = ""
+  [[menu.main]]
+    weight = 5
+    identifier = "About Us"
+    pre = ""
+    post = ""
+    name = "About Us"
+    url = "/about"
+    title = "about us"
+
+[params]
+  defaultTheme = "auto"
+  dateFormat = "2006-01-02"
+  title = "3 Stags LLC"
+  description = "Homepage for 3 Stags LLC"
+  images = []
+
+  [params.author]
+    name = "3 Stags LLC"
+    email = "hello@3-stags.com"
+    link = ""
+
+  [params.app]
+    title = "3 Stags LLC"
+    noFavicon = false
+    svgFavicon = ""
+    themeColor = "#ffffff"
+    iconColor = "#5bbad5"
+    tileColor = "#da532c"
+
+  [params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
+    [params.header.title]
+      logo = ""
+      name = "3 Stags LLC"
+      pre = " "
+      post = ""
+      typeit = false
+
+  [params.footer]
+    enable = true
+    custom = '🇺🇸 A Veteran Owned Small Business &nbsp;|&nbsp; <a href="/privacy-policy">Privacy Policy</a>'
+    hugo = false
+    copyright = true
+    author = true
+    since = 2022
+    icp = ""
+    license = ""
+
+  [params.home]
+    rss = 10
+    [params.home.profile]
+      enable = true
+      gravatarEmail = ""
+      avatarURL = ""
+      title = ""
+      subtitle = "👋 We do Software, Cloud, and Network Engineering"
+      typeit = true
+      social = true
+      disclaimer = ""
+    [params.home.posts]
+      enable = true
+      paginate = 6
+
+  [params.cdn]
+    data = "jsdelivr.yml"
 
 # Markup related configuration in Hugo
 [markup]
+  [markup.goldmark.renderer]
+    unsafe = true
   # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
   [markup.highlight]
     # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)

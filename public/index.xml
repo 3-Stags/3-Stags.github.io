@@ -1,10 +1,3 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>3 Stags LLC</title>
-        <link>http://3-stags.com/</link>
-        <description>Homepage for 3 Stags LLC</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>hello@3-stags.com (3 Stags LLC)</managingEditor>
-            <webMaster>hello@3-stags.com (3 Stags LLC)</webMaster>
-            <atom:link href="http://3-stags.com/index.xml" rel="self" type="application/rss+xml" />
-        </channel>
-</rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>3 Stags LLC</title><link>https://3-stags.com/</link><description>Homepage for 3 Stags LLC</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><managingEditor>hello@3-stags.com (3 Stags LLC)</managingEditor><webMaster>hello@3-stags.com (3 Stags LLC)</webMaster><lastBuildDate>Thu, 18 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://3-stags.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Introducing Adventurous</title><link>https://3-stags.com/posts/adventurous-coming-soon/</link><pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate><author>hello@3-stags.com (3 Stags LLC)</author><guid>https://3-stags.com/posts/adventurous-coming-soon/</guid><description><![CDATA[<p>We&rsquo;ve been working on something new.</p>
+<p><strong>Adventurous</strong> is an iOS app built around a simple idea: every day should have at least one small adventure. Not a vacation. Not a road trip. Just a reason to get out of your usual routine and explore something nearby that you wouldn&rsquo;t have found on your own.</p>
+<p>The app gives you a fresh adventure location every single day — different each time, calibrated to your schedule, and ready to go when you are. Check the weather, see what&rsquo;s around, and decide if today is the day you go.</p>]]></description></item></channel></rss>
