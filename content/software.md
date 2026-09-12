@@ -31,9 +31,12 @@ The app gives you a fresh adventure location every single day — different each
 - 🔒 **Private by design** — your location and history stay on your device. [Privacy policy](/privacy-policy)
 
 <div class="app-screenshots">
-  <img src="/images/app/home-light.png" alt="Adventurous home screen">
-  <img src="/images/app/adventure-light.png" alt="Adventurous adventure map">
-  <img src="/images/app/history-light.png" alt="Adventurous adventure history">
+  <img class="app-screenshot-light" src="/images/app/home-light.png" alt="Adventurous home screen">
+  <img class="app-screenshot-light" src="/images/app/adventure-light.png" alt="Adventurous adventure map">
+  <img class="app-screenshot-light" src="/images/app/history-light.png" alt="Adventurous adventure history">
+  <img class="app-screenshot-dark" src="/images/app/home-dark.png" alt="Adventurous home screen">
+  <img class="app-screenshot-dark" src="/images/app/adventure-dark.png" alt="Adventurous adventure map">
+  <img class="app-screenshot-dark" src="/images/app/history-dark.png" alt="Adventurous adventure history">
 </div>
 
 **Platform:** iOS 26+  

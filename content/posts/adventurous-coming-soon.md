@@ -14,9 +14,12 @@ We've been working on something new.
 The app gives you a fresh adventure location every single day — different each time, calibrated to your schedule, and ready to go when you are. Check the weather, see what's around, and decide if today is the day you go.
 
 <div class="app-screenshots">
-  <img src="/images/app/home-light.png" alt="Adventurous home screen">
-  <img src="/images/app/adventure-light.png" alt="Adventurous adventure map">
-  <img src="/images/app/history-light.png" alt="Adventurous adventure history">
+  <img class="app-screenshot-light" src="/images/app/home-light.png" alt="Adventurous home screen">
+  <img class="app-screenshot-light" src="/images/app/adventure-light.png" alt="Adventurous adventure map">
+  <img class="app-screenshot-light" src="/images/app/history-light.png" alt="Adventurous adventure history">
+  <img class="app-screenshot-dark" src="/images/app/home-dark.png" alt="Adventurous home screen">
+  <img class="app-screenshot-dark" src="/images/app/adventure-dark.png" alt="Adventurous adventure map">
+  <img class="app-screenshot-dark" src="/images/app/history-dark.png" alt="Adventurous adventure history">
 </div>
 
 We're not ready to say more yet, but we're getting close.
