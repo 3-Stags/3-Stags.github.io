@@ -25,6 +25,10 @@ The app gives you a fresh adventure location every single day — different each
 - 🎯 **Personalized to your life** — respects your work days and days off
 - 📍 **Local and nearby** — adventures scaled to how far you can realistically go
 - 🌤️ **Points of interest and weather** — everything you need to make the call
+- 🎢 **A fresh theme each day** — parks, museums, food, and more, without repeating recent places
+- ⏰ **Daily reminders** — a nudge as early as 7 AM, plus a prompt to rate where you went
+- 🧭 **Guided setup** — a quick onboarding flow gets your first adventure going in seconds
+- 🔒 **Private by design** — your location and history stay on your device. [Privacy policy](/privacy-policy)
 
 <div class="app-screenshots">
   <img class="app-screenshot-light" src="/images/app/home-light.png" alt="Adventurous home screen">
@@ -35,8 +39,9 @@ The app gives you a fresh adventure location every single day — different each
   <img class="app-screenshot-dark" src="/images/app/history-dark.png" alt="Adventurous adventure history">
 </div>
 
-**Platform:** iOS 17+  
-**Status:** Coming soon
+**Platform:** iOS 26+  
+**Pricing:** Free 4-day trial, then Personal Weekly ($6.99), Personal Annual ($59.99), or Family Annual ($119.99, shareable with Family Sharing)  
+**Status:** In beta on TestFlight — App Store launch coming soon
 
 ---
 
