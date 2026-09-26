@@ -68,3 +68,9 @@ body[theme="light"] .app-store-badge-dark { display: none; }
     object-position: center;
   }
 }
+
+// The Adventurous hero is a tall portrait shot that is mostly sky; anchor the
+// banner crop near the bottom so the ridge, hiker and trail stay in frame.
+.page.single.special .featured-image img[data-src*="adventurous-hero"] {
+  object-position: center 80%;
+}
