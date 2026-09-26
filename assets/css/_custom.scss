@@ -24,41 +24,32 @@
 body[theme="dark"] .app-screenshot-light { display: none; }
 body[theme="light"] .app-screenshot-dark { display: none; }
 
-// App Store download button (see layouts/shortcodes/appstore.html)
+// Official App Store badge (see layouts/shortcodes/appstore.html).
+//
+// Apple's marketing guidelines forbid altering the badge, so it gets no
+// shadow, tint, radius or hover transform — only the clear space Apple
+// requires (at least 10% of the badge height on every side) and the same
+// theme swap the screenshots use.
 .app-store-cta {
   text-align: center;
   margin: 2rem 0;
 }
 
-.app-store-button {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.6rem;
-  padding: 0.7rem 1.4rem;
-  border-radius: 999px;
-  background: #000;
-  color: #fff !important;
-  font-weight: 600;
-  text-decoration: none !important;
+.app-store-badge {
+  display: inline-block;
+  line-height: 0;
+  padding: 6px;
   border-bottom: none !important;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
 
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
-  }
-
-  svg {
-    flex-shrink: 0;
-    // The Apple glyph sits slightly high in its viewBox
-    margin-top: -2px;
+  img {
+    height: 44px;
+    width: auto;
+    display: inline-block;
   }
 }
 
-body[theme="dark"] .app-store-button {
-  background: #fff;
-  color: #000 !important;
-}
+body[theme="dark"] .app-store-badge-light { display: none; }
+body[theme="light"] .app-store-badge-dark { display: none; }
 
 // Left-align page titles (theme default is right-aligned for "special" pages)
 .page.single.special {
