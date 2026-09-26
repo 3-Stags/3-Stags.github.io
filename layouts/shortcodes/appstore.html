@@ -1,0 +1,18 @@
+{{- /*
+  Official "Download on the App Store" badge, per Apple's marketing guidelines:
+  https://developer.apple.com/app-store/marketing/guidelines/
+
+  Apple ships the lockup in exactly two variants and forbids altering either, so
+  both are used unmodified and swapped with the site theme — the black badge on
+  light backgrounds, the white badge on dark. The App Store URL lives in
+  hugo.toml as params.adventurous.appStoreURL.
+*/ -}}
+{{- $url := .Site.Params.adventurous.appStoreURL -}}
+{{- if $url -}}
+<p class="app-store-cta">
+  <a class="app-store-badge" href="{{ $url }}" target="_blank" rel="noopener" aria-label="Download Adventurous on the App Store">
+    <img class="app-store-badge-light" src="/images/badges/download-on-the-app-store-black.svg" width="120" height="40" alt="Download on the App Store">
+    <img class="app-store-badge-dark" src="/images/badges/download-on-the-app-store-white.svg" width="120" height="40" alt="Download on the App Store">
+  </a>
+</p>
+{{- end -}}

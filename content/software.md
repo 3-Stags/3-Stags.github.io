@@ -19,29 +19,28 @@ Whether you need a team to build something from scratch, an experienced hand to 
 
 **Adventurous** is an iOS app built around a simple idea: every day should have at least one small adventure. Not a vacation. Not a road trip. Just a reason to step outside your usual routine and discover something nearby that you wouldn't have found on your own.
 
-The app gives you a fresh adventure location every single day — different each time, calibrated to your schedule, and ready to go when you are. Check the weather, see what's nearby, and decide if today is the day you go.
+The app gives you a fresh adventure location every single day — different each time, calibrated to your schedule, and ready to go when you are.
 
 - 🗓️ **A new adventure every day** — no two days the same
 - 🎯 **Personalized to your life** — respects your work days and days off
-- 📍 **Local and nearby** — adventures scaled to how far you can realistically go
-- 🌤️ **Points of interest and weather** — everything you need to make the call
-- 🎢 **A fresh theme each day** — parks, museums, food, and more, without repeating recent places
-- ⏰ **Daily reminders** — a nudge as early as 7 AM, plus a prompt to rate where you went
-- 🧭 **Guided setup** — a quick onboarding flow gets your first adventure going in seconds
-- 🔒 **Private by design** — your location and history stay on your device. [Privacy policy](/privacy-policy)
+- 🔒 **Private by design** — your location and history stay on your device
 
 <div class="app-screenshots">
-  <img class="app-screenshot-light" src="/images/app/home-light.png" alt="Adventurous home screen">
-  <img class="app-screenshot-light" src="/images/app/adventure-light.png" alt="Adventurous adventure map">
-  <img class="app-screenshot-light" src="/images/app/history-light.png" alt="Adventurous adventure history">
-  <img class="app-screenshot-dark" src="/images/app/home-dark.png" alt="Adventurous home screen">
-  <img class="app-screenshot-dark" src="/images/app/adventure-dark.png" alt="Adventurous adventure map">
-  <img class="app-screenshot-dark" src="/images/app/history-dark.png" alt="Adventurous adventure history">
+  <img class="app-screenshot-light" src="/images/app/home-framed-light.png" alt="Adventurous home screen">
+  <img class="app-screenshot-light" src="/images/app/adventure-framed-light.png" alt="Adventurous adventure map">
+  <img class="app-screenshot-light" src="/images/app/history-framed-light.png" alt="Adventurous adventure history">
+  <img class="app-screenshot-dark" src="/images/app/home-framed-dark.png" alt="Adventurous home screen">
+  <img class="app-screenshot-dark" src="/images/app/adventure-framed-dark.png" alt="Adventurous adventure map">
+  <img class="app-screenshot-dark" src="/images/app/history-framed-dark.png" alt="Adventurous adventure history">
 </div>
 
 **Platform:** iOS 26+  
 **Pricing:** Free 4-day trial, then Personal Weekly ($6.99), Personal Annual ($59.99), or Family Annual ($119.99, shareable with Family Sharing)  
-**Status:** In beta on TestFlight — App Store launch coming soon
+**Status:** 🎉 Available now on the App Store
+
+{{< appstore >}}
+
+**[Learn more about Adventurous →](/adventurous)**
 
 ---
 

@@ -43,6 +43,14 @@ defaultContentLanguage = "en"
 #    url = "/categories/"
 #    title = ""
   [[menu.main]]
+    weight = 1
+    identifier = "adventurous"
+    pre = ""
+    post = ""
+    name = "Adventurous"
+    url = "/adventurous"
+    title = "Adventurous — your daily adventure, delivered"
+  [[menu.main]]
     weight = 2
     identifier = "software"
     pre = ""
@@ -81,6 +89,10 @@ defaultContentLanguage = "en"
   title = "3 Stags LLC"
   description = "Homepage for 3 Stags LLC"
   images = []
+
+  # Adventurous iOS app — one place for the App Store link so a change is a one-liner
+  [params.adventurous]
+    appStoreURL = "https://apps.apple.com/us/app/adventurous-be-spontaneous/id6760982975"
 
   [params.author]
     name = "3 Stags LLC"
