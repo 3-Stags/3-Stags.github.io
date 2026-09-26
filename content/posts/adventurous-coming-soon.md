@@ -14,14 +14,18 @@ We've been working on something new.
 The app gives you a fresh adventure location every single day — different each time, calibrated to your schedule, and ready to go when you are. Check the weather, see what's around, and decide if today is the day you go.
 
 <div class="app-screenshots">
-  <img class="app-screenshot-light" src="/images/app/home-light.png" alt="Adventurous home screen">
-  <img class="app-screenshot-light" src="/images/app/adventure-light.png" alt="Adventurous adventure map">
-  <img class="app-screenshot-light" src="/images/app/history-light.png" alt="Adventurous adventure history">
-  <img class="app-screenshot-dark" src="/images/app/home-dark.png" alt="Adventurous home screen">
-  <img class="app-screenshot-dark" src="/images/app/adventure-dark.png" alt="Adventurous adventure map">
-  <img class="app-screenshot-dark" src="/images/app/history-dark.png" alt="Adventurous adventure history">
+  <img class="app-screenshot-light" src="/images/app/home-framed-light.png" alt="Adventurous home screen">
+  <img class="app-screenshot-light" src="/images/app/adventure-framed-light.png" alt="Adventurous adventure map">
+  <img class="app-screenshot-light" src="/images/app/history-framed-light.png" alt="Adventurous adventure history">
+  <img class="app-screenshot-dark" src="/images/app/home-framed-dark.png" alt="Adventurous home screen">
+  <img class="app-screenshot-dark" src="/images/app/adventure-framed-dark.png" alt="Adventurous adventure map">
+  <img class="app-screenshot-dark" src="/images/app/history-framed-dark.png" alt="Adventurous adventure history">
 </div>
 
 We're not ready to say more yet, but we're getting close.
 
-**[Learn more about Adventurous →](/software)**
+---
+
+> 🎉 **Update, 26 September 2026:** Adventurous is out — [it's on the App Store now](/posts/adventurous-now-available).
+
+**[Learn more about Adventurous →](/adventurous)**

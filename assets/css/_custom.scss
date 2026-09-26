@@ -1,20 +1,64 @@
 // App screenshot gallery — swap light/dark images with the site theme
+//
+// The images are device-framed PNGs with transparent surrounds, so they carry
+// their own rounded corners: a border-radius would clip the frame and a
+// box-shadow would draw on the rectangular bounding box instead of the phone.
+// drop-shadow follows the alpha channel, which is what these need.
 .app-screenshots {
   display: flex;
-  gap: 1.25rem;
+  gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
   margin: 2rem 0;
 
   img {
-    width: 180px;
-    border-radius: 20px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    // Three across the content column on desktop; the percentage cap drops
+    // them to two per row once the column gets narrow.
+    width: 190px;
+    max-width: 45%;
+    height: auto;
+    filter: drop-shadow(0 6px 20px rgba(0, 0, 0, 0.2));
   }
 }
 
 body[theme="dark"] .app-screenshot-light { display: none; }
 body[theme="light"] .app-screenshot-dark { display: none; }
+
+// App Store download button (see layouts/shortcodes/appstore.html)
+.app-store-cta {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.app-store-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.7rem 1.4rem;
+  border-radius: 999px;
+  background: #000;
+  color: #fff !important;
+  font-weight: 600;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  }
+
+  svg {
+    flex-shrink: 0;
+    // The Apple glyph sits slightly high in its viewBox
+    margin-top: -2px;
+  }
+}
+
+body[theme="dark"] .app-store-button {
+  background: #fff;
+  color: #000 !important;
+}
 
 // Left-align page titles (theme default is right-aligned for "special" pages)
 .page.single.special {
